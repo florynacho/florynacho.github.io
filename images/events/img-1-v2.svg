@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="962" height="327" viewBox="0 0 962 327">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 326h960V1H0z" opacity=".321" style="mix-blend-mode:multiply"/>
+        <text fill="#60584F" font-family="BonVivant-Regular, Bon Vivant" font-size="70" font-style="italic" transform="translate(0 1)">
+            <tspan x="520" y="161">Fecha y Lugar</tspan>
+        </text>
+        <path stroke="#78736E" stroke-dasharray="1,13" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M959.25 2l.5 325" opacity=".846"/>
+    </g>
+</svg>
