@@ -115,9 +115,9 @@ a:focus {
   overflow: hidden;
 }
 
-.wow {
-  visibility: hidden;
-}
+/*.wow {*/
+  /*visibility: hidden;*/
+/*}*/
 
 .fi:before {
   margin: 0;
@@ -2426,6 +2426,10 @@ a:focus {
   }
 }
 
+.wedding-couple-section .img-holder {
+  max-height: 546px;
+}
+
 @media (max-width: 991px) {
   .wedding-couple-section .img-holder,
   .wedding-couple-section .details {
@@ -2809,8 +2813,17 @@ a:focus {
 }
 
 .story-section .story-timeline img {
+  max-height: 400px;
   display: inline-block;
 }
+
+@media (max-width: 991px) {
+  .story-section .story-timeline img {
+    max-height: unset;
+    display: inline-block;
+  }
+}
+
 
 .story-section .video-holder {
   position: relative;
