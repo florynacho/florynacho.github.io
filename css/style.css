@@ -351,7 +351,7 @@ a:focus {
   /*z-index: 100;*/
 /*}*/
 
-.section-title, .section-title-white {
+. section-title, .section-title-white {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
@@ -393,7 +393,7 @@ a:focus {
 
   .section-title, .section-title-white.hospedaje img {
     padding: 0px;
-    max-width: 60px;
+    /*max-width: 60px;*/
   }
 
   .section-title .vertical-line, .section-title-white .vertical-line {
@@ -2327,19 +2327,19 @@ a:focus {
   margin-bottom: 15px;
 }
 
-@media (max-width: 1199px) {
-  .wedding-couple-section .details h3 {
-    font-size: 22px;
-    font-size: 1.22222rem;
-  }
-}
+/*@media (max-width: 1199px) {*/
+  /*.wedding-couple-section .details h3 {*/
+    /*font-size: 22px;*/
+    /*font-size: 1.22222rem;*/
+  /*}*/
+/*}*/
 
-@media (max-width: 767px) {
-  .wedding-couple-section .details h3 {
-    font-size: 20px;
-    font-size: 1.11111rem;
-  }
-}
+/*@media (max-width: 767px) {*/
+  /*.wedding-couple-section .details h3 {*/
+    /*font-size: 20px;*/
+    /*font-size: 1.11111rem;*/
+  /*}*/
+/*}*/
 
 .wedding-couple-section .details .signature {
   font-family: "Great Vibes", cursive;
