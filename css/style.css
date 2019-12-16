@@ -3733,6 +3733,7 @@ a:focus {
 #1.5	gift-registration-section
 --------------------------------------------------------------*/
 .gift-section {
+  text-align: center;
   background: #524c45;
 }
 
