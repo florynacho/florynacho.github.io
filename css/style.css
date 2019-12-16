@@ -28,7 +28,21 @@ URL:            http://themeforest.net/user/themexriver
 /*---------------------------
 	Fonts
 ----------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes");
+/*@import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes");*/
+@font-face {
+  font-family: BonVivantRegular;
+  src: url("../fonts/bon-vivant-regular/BonVivant-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: BonVivantSerif;
+  src: url("../fonts/bon-vivant-serif/BonVivant-Serif.otf") format("opentype");
+}
+
+@font-face {
+  font-family: BonVivantBold;
+  src: url("../fonts/bon-vivant-serif-bold/BonVivant-Bold.otf") format("opentype");
+}
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
@@ -37,7 +51,7 @@ html {
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "bon_vivantserif_regular", serif;
   background-color: #fff;
   font-size: 18px;
   font-size: 1rem;
@@ -367,6 +381,10 @@ a:focus {
   top: 0;
 }
 
+.section-title, .section-title-white.hospedaje h2 {
+  font-family: "BonVivantRegular";
+}
+
 @media (max-width: 991px) {
 
   .section-title, .section-title-white.hospedaje {
@@ -465,7 +483,7 @@ a:focus {
 }
 
 .section-title h2, .section-title-white h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "bon_vivantserif_regular";
   /*background-color: rgba(94, 154, 142, 0.1);*/
   font-size: 46px;
   font-size: 2.55556rem;
@@ -929,7 +947,7 @@ a:focus {
 }
 
 .blog-sidebar .categories-widget ul li a:before {
-  font-family: FontAwesome;
+  font-family: "bon_vivantserif_regular";
   content: "\f105";
   /*color: #182a4d;*/
   position: absolute;
@@ -1004,7 +1022,7 @@ a:focus {
 }
 
 .blog-sidebar .populer-tags-widget ul li a:before {
-  font-family: FontAwesome;
+  font-family: "bon_vivantserif_regular";;
   content: "\f02b";
   font-size: 13px;
   /*color: rgba(94, 154, 142, 0.3);*/
@@ -1176,7 +1194,7 @@ a:focus {
     position: relative;
   }
   .site-header #navbar > ul > li > .sub-menu > .menu-item-has-children > a:before {
-    font-family: "FontAwesome";
+    font-family: "bon_vivantserif_regular";
     content: "\f105";
     font-size: 15px;
     font-size: 0.83333rem;
@@ -1223,7 +1241,7 @@ a:focus {
     position: relative;
   }
   .site-header #navbar > ul .menu-item-has-children > a:before {
-    font-family: "FontAwesome";
+    font-family: "bon_vivantserif_regular";
     content: "\f107";
     font-size: 15px;
     font-size: 0.83333rem;
@@ -1395,10 +1413,16 @@ a:focus {
   .site-header #navbar ul li.current a {
     color: #e8ddd1;
   }
+
   .site-header #navbar .navbar-nav {
     height: 100%;
     overflow: auto;
   }
+
+  .site-header #navbar .navbar-nav a {
+    font-family: "BonVivantSerif" !important;
+  }
+
   .site-header #navbar .close-navbar {
     background-color: #e8ddd1;
     width: 35px;
@@ -1473,7 +1497,7 @@ a:focus {
 }
 
 .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
-  font-family: "Great Vibes", cursive;
+  font-family: "BonVivantSerif";
   font-size: 35px;
   font-size: 1.94444rem;
   margin: 0;
@@ -1530,12 +1554,12 @@ a:focus {
 
 @media screen and (min-width: 992px) {
   .header-style-1 #navbar > ul > li > a, .header-style-2 #navbar > ul > li > a {
+    font-family: "BonVivantSerif";
     font-size: 18px;
     font-size: 1rem;
-    font-weight: 600;
     color: #413d3d;
     padding: 35px 17px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
   .header-style-1 #navbar > ul .sub-menu, .header-style-2 #navbar > ul .sub-menu {
     -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
@@ -2055,13 +2079,12 @@ a:focus {
 }
 
 .site-footer h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "BonVivantRegular";
   font-size: 67px;
   font-size: 3.72222rem;
   color: #fff;
   margin: 0 0 0.3em;
   padding: 0 250px;
-  text-transform: capitalize;
   letter-spacing: 5px;
 }
 
@@ -2270,12 +2293,15 @@ a:focus {
 }
 
 .wedding-couple-section .details h3 {
-  font-size: 26px;
-  font-size: 1.44444rem;
-  font-weight: 600;
+  font-family: "BonVivantRegular";
+  font-size: 70px;
   color: #3d3d3d;
-  margin: 0 0 0.7em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+}
+
+.wedding-couple-section .details p {
+  font-family: "BonVivantSerif";
+  font-size: 20px;
 }
 
 .wedding-couple-section .details .details-inner .title-details {
@@ -2291,14 +2317,12 @@ a:focus {
 }
 
 .wedding-couple-section .details .details-inner .title-details img {
-  width: 50px;
   margin-left: auto;
   margin-right: 10px;
   margin-bottom: 15px;
 }
 
 .wedding-couple-section .details .details-inner .title-details-girlfriend img {
-  width: 50px;
   margin-left: 10px;
   margin-bottom: 15px;
 }
@@ -2442,7 +2466,7 @@ a:focus {
 }
 
 .count-down-section h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "BonVivantRegular";
   font-size: 50px;
   color: #fff;
   margin: 0;
@@ -2538,6 +2562,7 @@ a:focus {
 }
 
 .count-down-section #clock .box > div {
+  font-family: "BonVivantSerif";
   font-size: 40px;
   font-size: 2.22222rem;
   font-weight: 600;
@@ -2568,6 +2593,11 @@ a:focus {
 /*--------------------------------------------------------------
 #0.8	story-section
 --------------------------------------------------------------*/
+.story-section .container .section-title h2 {
+  font-family: "BonVivantRegular";
+  font-size: 70px;
+}
+
 .story-section .story-timeline {
   position: relative;
 }
@@ -2756,11 +2786,26 @@ a:focus {
 }
 
 .story-section .story-timeline .date {
+  font-family: "BonVivantSerif";
   font-size: 14px;
   font-size: 0.77778rem;
   font-weight: 600;
   display: block;
   margin-bottom: 15px;
+}
+
+.story-section .story-timeline h3 {
+  font-family: "BonVivantBold";
+}
+
+.story-section .story-timeline h4 {
+  font-family: "BonVivantSerif";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.story-section .story-timeline p {
+  font-family: "BonVivantSerif";
 }
 
 .story-section .story-timeline img {
@@ -2986,8 +3031,10 @@ a:focus {
 }
 
 .events-section .event ul li {
+  font-family: "BonVivantBold";
   font-size: 16px;
   font-size: 0.88889rem;
+  font-weight: bold;
   color: #a9a9a9;
   position: relative;
 }
@@ -3011,14 +3058,15 @@ a:focus {
 }
 
 .events-section .event .see-location-btn {
+  font-family: "BonVivantBold";
   font-weight: 600;
-  color: #e8ddd1;
+  color: #d89949;
   display: inline-block;
   margin-top: 5px;
 }
 
 .events-section .event .see-location-btn:hover {
-  color: #4b7a71;
+  color: #524c45;
 }
 
 /*--------------------------------------------------------------
@@ -3431,6 +3479,10 @@ a:focus {
   margin: auto;
 }
 
+.rsvp-section .container h2 {
+  font-family: "BonVivantRegular";
+}
+
 .rsvp-section .container .text-and-button {
   display: flex;
   flex-direction: column;
@@ -3440,6 +3492,7 @@ a:focus {
 }
 
 .rsvp-section .container .text-and-button button {
+  font-family: "BonVivantSerif";
   background-color: #d89949;
   color: white;
   width: 105px;
@@ -3447,6 +3500,7 @@ a:focus {
 }
 
 .rsvp-section .content p {
+  font-family: "BonVivantSerif";
   color: black;
   margin: 0.5em 0 2em;
 }
@@ -3579,6 +3633,14 @@ a:focus {
   border-bottom: 1px dotted #60584f;
 }
 
+.getting-there-section .hospedaje h3 {
+  font-family: "BonVivantBold";
+}
+
+.getting-there-section .hospedaje p {
+  font-family: "BonVivantSerif";
+}
+
 .getting-there-section .container .getting-there-details {
   padding-top: 80px;
 }
@@ -3661,12 +3723,27 @@ a:focus {
   background: #524c45;
 }
 
+.gift-section .container h2 {
+  font-family: "BonVivantRegular";
+}
+
 .gift-section .container h3 {
+  font-family: "BonVivantSerif";
   color: white;
 }
 
 .gift-section .container p {
+  font-family: "BonVivantSerif";
   color: white;
+}
+
+.gift-section .container .bank-info {
+  text-align: center;
+}
+
+.gift-section .container .contact-details {
+  font-family: "BonVivantBold";
+  margin-top: 30px;
 }
 
 @media (max-width: 991px) {
