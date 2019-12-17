@@ -30,3 +30,11 @@ G
 images/countdown-bg.svg,e/2/e27ada222875c15e99a1bc4f8e999cf6635a1b87
 E
 css/bootstrap.min.css,0/f/0f647bba076518ea08e688ce23968f2b1bb22f7d
+C
+images/group-14.svg,7/4/74ec482a680c52abc87c4f5daee4b1fbc9e76391
+H
+css/font-awesome.min.css,4/f/4f1b6e6cddde49cf994ea6aba177a14ff6aebb0b
+?
+css/animate.css,5/3/532f1002b528bcb24e78c90db9f2340f1f5883c4
+<
+js/spirit.js,4/8/4883572b6356ae08a2880c13bb5cee63deba8b44
