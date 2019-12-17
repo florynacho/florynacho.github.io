@@ -2034,6 +2034,12 @@ a:focus {
   z-index: 50;
 }
 
+@media (max-width: 767px) {
+  .static-hero {
+    background-size: 300% 100% !important;
+  }
+}
+
 .static-hero:before {
   content: "";
   /*background-color: rgba(0, 0, 0, 0.3);*/
