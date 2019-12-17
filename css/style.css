@@ -3521,12 +3521,14 @@ a:focus {
     max-width: 80%;
   }
 }
-.rsvp-section .container .text-and-button button {
+.rsvp-section .container .text-and-button a {
   font-family: "BonVivantSerif";
   background-color: #d89949;
   color: white;
   width: 105px;
   margin-top: 30px;
+  border: none;
+  text-align: center;
 }
 
 .rsvp-section .content p {
@@ -3610,7 +3612,7 @@ a:focus {
   text-align: center;
 }
 
-.rsvp-section .form .submit-btn button {
+.rsvp-section .form .submit-btn a {
   background-color: #e8ddd1;
   height: 45px;
   line-height: 45px;
@@ -3635,7 +3637,7 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .rsvp-section .form .submit-btn button {
+  .rsvp-section .form .submit-btn a {
     height: 40px;
     line-height: 40px;
     font-size: 15px;
