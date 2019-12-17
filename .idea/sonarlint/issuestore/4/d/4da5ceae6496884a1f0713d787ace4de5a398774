@@ -1,8 +1,8 @@
 
-`javascript:S1854"ARemove this useless assignment to local variable "documentHeight"(¹ıÇøøÿÿÿÿ
-^javascript:UnusedVariable"6Remove the declaration of the unused '$this' variable.(Æ©ƒŞùÿÿÿÿ
-^javascript:S1854"?Remove this useless assignment to local variable "windowHeight"(¯¥Îúÿÿÿÿ
-Ajavascript:UnusedVariable"Remove unused function 'isIE'.(¼èÿĞ
 ejavascript:UnusedVariable"=Remove the declaration of the unused 'windowHeight' variable.(¯¥Îúÿÿÿÿ
+^javascript:S1854"?Remove this useless assignment to local variable "windowHeight"(¯¥Îúÿÿÿÿ
+^javascript:UnusedVariable"6Remove the declaration of the unused '$this' variable.(Æ©ƒŞùÿÿÿÿ
 gjavascript:UnusedVariable"?Remove the declaration of the unused 'documentHeight' variable.(¹ıÇøøÿÿÿÿ
+`javascript:S1854"ARemove this useless assignment to local variable "documentHeight"(¹ıÇøøÿÿÿÿ
 Wjavascript:S1854"8Remove this useless assignment to local variable "$this"(Æ©ƒŞùÿÿÿÿ
+Ajavascript:UnusedVariable"Remove unused function 'isIE'.(¼èÿĞ
