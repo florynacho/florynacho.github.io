@@ -16,8 +16,6 @@ L
 js/script.js,4/d/4da5ceae6496884a1f0713d787ace4de5a398774
 =
 css/style.css,1/2/126b0f8c1ec95fb3a2541745bfc21365b438d668
-<
-index-3.html,4/0/402e2aea335e6ddbc0691691aaa2b8bf3b1fc2b8
 J
 images/events/group-16.svg,2/1/217faccbb34bd56bafb97bdc8ca2ae3d2fa66f98
 J
@@ -38,3 +36,5 @@ H
 css/animate.css,5/3/532f1002b528bcb24e78c90db9f2340f1f5883c4
 <
 js/spirit.js,4/8/4883572b6356ae08a2880c13bb5cee63deba8b44
+=
+index-v1.html,9/8/98918e2d733a3064a44095c50c3d8278e475523e
