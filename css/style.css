@@ -2036,7 +2036,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .static-hero {
-    background-size: 300% 100% !important;
+    background: url("../images/group-2@2x.png") center center/cover no-repeat local;
   }
 }
 
@@ -3060,7 +3060,7 @@ a:focus {
   font-size: 16px;
   font-size: 0.88889rem;
   font-weight: bold;
-  color: #a9a9a9;
+  color: #322e28;
   position: relative;
 }
 
