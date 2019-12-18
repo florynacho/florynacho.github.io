@@ -74,7 +74,7 @@ body {
 }
 
 p {
-  color: #767878;
+  color: #322e28;
   line-height: 1.8em;
 }
 
@@ -2068,7 +2068,7 @@ a:focus {
 
 @media (max-width: 1199px) {
   .site-footer {
-    padding: 110px 0;
+    padding: 85px 0;
   }
 }
 
@@ -2086,9 +2086,8 @@ a:focus {
 
 .site-footer h2 {
   font-family: "BonVivantRegular";
-  font-size: 67px;
-  font-size: 3.72222rem;
-  color: #fff;
+  font-size: 100px;
+  color: #756e66;
   margin: 0 0 0.3em;
   padding: 0 250px;
   letter-spacing: 5px;
@@ -2097,7 +2096,6 @@ a:focus {
 @media (max-width: 1199px) {
   .site-footer h2 {
     font-size: 55px;
-    font-size: 3.05556rem;
     padding: 0 200px;
   }
 }
@@ -3509,11 +3507,13 @@ a:focus {
 }
 
 .rsvp-section .container .text-and-button {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 33%;
   padding-bottom: 50px;
+  font-family: "BonVivantSerif";
 }
 
 @media (max-width: 991px) {
@@ -4123,7 +4123,7 @@ a:focus {
 .blog-details-content .tag-social-share .tag a {
   font-size: 13px;
   font-size: 0.72222rem;
-  color: #767878;
+  color: #322e28;
   border: 1px solid #e4e4e4;
   padding: 5px 7px;
   display: inline-block;
